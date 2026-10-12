@@ -32,7 +32,9 @@ export default function Footer() {
       </div>
       <div className="container footer__bottom">
         <p className="label">© {new Date().getFullYear()} CFE Companies. All rights reserved.</p>
-        <p className="label">Taxes · Accounting · Consulting · Investments</p>
+        <a className="label" href="https://rokonline.com" target="_blank" rel="noopener noreferrer">
+          Developed by Rok Online Inc.
+        </a>
       </div>
     </footer>
   )
