@@ -10,7 +10,7 @@ import SectionHeader from '../components/SectionHeader.jsx'
 import CtaBand from '../components/CtaBand.jsx'
 
 export default function About() {
-  useSeo('About CFE Companies | Founder & Experience', 'Learn about CFE Companies, founded in 2006 by Zadih Cadyma: experience across industries and expertise in tax, accounting and business planning.')
+  useSeo('About CFE Accounting | Founder & Experience', 'Learn about CFE Accounting, founded in 2006 by Zadih Cadyma: experience across industries and expertise in tax, accounting and business planning.')
   return (
     <>
       <PageHero eyebrow="About" title="A holding company built on accounting and tax." intro="The company was founded in 2006 by managing director Zadih Cadyma after leaving Corporate America." />
@@ -47,7 +47,7 @@ export default function About() {
       <TrustSection />
       <section className="section">
         <div className="container">
-          <SectionHeader eyebrow="The CFE Companies" title="One holding company, several practices." intro="CFE Companies is a holding company for all the CFE companies, including accounting and tax services."><Link to="/companies" className="u-link">All companies <ArrowUpRight size={16} /></Link></SectionHeader>
+          <SectionHeader eyebrow="The CFE Accounting" title="One holding company, several practices." intro="CFE Accounting is a holding company for all the CFE Accounting, including accounting and tax services."><Link to="/companies" className="u-link">All companies <ArrowUpRight size={16} /></Link></SectionHeader>
           <ul className="family">
             {SITE.family.map((f, i) => (
               <Reveal as="li" key={f.slug} delay={(i % 3) * 60} className="family__item">

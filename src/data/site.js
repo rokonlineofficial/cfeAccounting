@@ -1,6 +1,6 @@
 // Business facts, taken from the original cfeaccounting.com / cfecompanies pages.
 export const SITE = {
-  name: 'CFE Companies',
+  name: 'CFE Accounting',
   altName: 'CFE Accounting',
   tagline: 'Getting Your Financial Life In Order',
   disciplines: ['Taxes', 'Accounting', 'Consulting', 'Investments'],
@@ -33,7 +33,7 @@ export const SITE = {
   // Logos: supplied by the client (tax, consulting, publishing, properties) / from the original site (holding company).
   // `related` = slugs from services.js shown on each company's page.
   family: [
-    { slug: 'cfe-companies', name: 'CFE Companies', logo: 'companies', text: 'We are a holding company for all the CFE Companies: Accounting and Tax Services.', related: ['accounting', 'taxes', 'tax-accounting-and-consulting'] },
+    { slug: 'cfe-companies', name: 'CFE Companies', logo: 'companies', text: 'We are a holding company for all the CFE Accounting: Accounting and Tax Services.', related: ['accounting', 'taxes', 'tax-accounting-and-consulting'] },
     { slug: 'cfe-tax-services', name: 'CFE Tax Services', logo: 'tax', text: 'We do taxes for individuals and businesses. Tax planning and bookkeeping.', related: ['taxes', 'tax-accounting-and-consulting', 'bookkeeping'] },
     { slug: 'cfe-consulting', name: 'CFE Consulting', logo: 'consulting', text: 'Our management consultants work with domestic and global clients (organizations).', related: ['business-planning', 'business-formation-and-restructuring', 'cash-flow-and-budgeting-analysis'] },
     { slug: 'cfe-properties-corp', name: 'CFE Properties Corp', logo: 'realestate', text: 'Real estate development, management, and acquisition.', related: ['real-estate-accounting', 'fixed-asset-management'] },

@@ -10,7 +10,7 @@ import NotFound from './NotFound.jsx'
 export default function ServiceDetail() {
   const { slug } = useParams()
   const service = getService(slug)
-  useSeo(service ? `${service.name} | CFE Companies` : 'Service not found | CFE Companies', service ? service.short : 'This service page could not be found.')
+  useSeo(service ? `${service.name} | CFE Accounting` : 'Service not found | CFE Accounting', service ? service.short : 'This service page could not be found.')
   if (!service) return <NotFound />
 
   const i = services.indexOf(service)

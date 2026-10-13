@@ -7,8 +7,8 @@ import QuoteForm from '../components/QuoteForm.jsx'
 
 export default function Contact() {
   useSeo(
-    'Contact & Free Quote | CFE Companies',
-    'Request a free estimation from CFE Companies in Charlotte, NC. Email zca@cfeaccounting.com.'
+    'Contact & Free Quote | CFE Accounting',
+    'Request a free estimation from CFE Accounting in Charlotte, NC. Email zca@cfeaccounting.com.'
   )
 
   return (
@@ -39,7 +39,7 @@ export default function Contact() {
 
             <p className="contact-description">
               If you want to get a free consultation without any obligation,
-              get in touch with CFE Companies. We'll help you understand your
+              get in touch with CFE Accounting. We'll help you understand your
               options and find the right direction for your business.
             </p>
 

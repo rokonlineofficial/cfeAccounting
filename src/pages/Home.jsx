@@ -13,7 +13,7 @@ import { services, groups } from '../data/services.js'
 import { SITE } from '../data/site.js'
 
 export default function Home() {
-  useSeo('CFE Companies | Tax, Accounting & Financial Services', 'Get your financial life in order with CFE Companies. Professional tax, accounting, consulting and financial services for businesses and individuals.')
+  useSeo('CFE Accounting | Tax, Accounting & Financial Services', 'Get your financial life in order with CFE Accounting. Professional tax, accounting, consulting and financial services for businesses and individuals.')
   return (
     <>
       <Hero />
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="container grid">
           <Reveal className="col-3"><p className="label label--red">The Company</p></Reveal>
           <Reveal delay={80} className="col-9">
-            <ScrubText className="statement__text" text="CFE Companies is a holding company for all the CFE Companies: accounting and tax services." />
+            <ScrubText className="statement__text" text="CFE Accounting is a holding company for all the CFE Accounting: accounting and tax services." />
             <ul className="disciplines">
               {SITE.disciplines.map((d, i) => (<li key={d}><span>{String(i + 1).padStart(2, '0')}</span>{d}</li>))}
             </ul>
@@ -81,7 +81,7 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
-          <SectionHeader eyebrow="Our Companies" title="One name, several practices." intro="CFE Companies is the holding company for the CFE family.">
+          <SectionHeader eyebrow="Our Companies" title="One name, several practices." intro="CFE Accounting is the holding company for the CFE family.">
             <Link to="/companies" className="u-link">Meet all companies <ArrowUpRight size={16} /></Link>
           </SectionHeader>
           <ul className="co-strip">

@@ -9,10 +9,10 @@ import { ArrowUpRight } from 'lucide-react'
 import { SITE } from '../data/site.js'
 
 export default function Companies() {
-  useSeo('Our Companies | CFE Companies', 'CFE Companies is a holding company for CFE Tax Services, CFE Consulting, CFE Publishing, Real Estate and Money Masters International.')
+  useSeo('Our Companies | CFE Accounting', 'CFE Accounting is a holding company for CFE Tax Services, CFE Consulting, CFE Publishing, Real Estate and Money Masters International.')
   return (
     <>
-      <PageHero eyebrow="Our Companies" title="The CFE family of companies." intro="CFE Companies is a holding company for all the CFE Companies, including accounting and tax services." />
+      <PageHero eyebrow="Our Companies" title="The CFE family of companies." intro="CFE Accounting is a holding company for all the CFE Accounting, including accounting and tax services." />
       <section className="section section--tight">
         <div className="container">
           <ol className="co-list">

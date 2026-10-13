@@ -18,7 +18,7 @@ export default function FounderSection({ full = false }) {
           <h2 id="founder-h" className="h-section">Meet the CEO &amp; Founder <br /><span className="red">{SITE.founder.name}</span></h2>
           <p className="founder__role label">{SITE.founder.role}</p>
           <p className="lead">
-            CFE Companies was founded in {SITE.founded} by managing director {SITE.founder.name} after leaving Corporate America.
+            CFE Accounting was founded in {SITE.founded} by managing director {SITE.founder.name} after leaving Corporate America.
           </p>
           {full ? (
             <>

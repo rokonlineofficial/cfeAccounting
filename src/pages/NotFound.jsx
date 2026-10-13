@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import useSeo from '../lib/useSeo.js'
 
 export default function NotFound() {
-  useSeo('Page not found | CFE Companies', 'The page you are looking for could not be found.')
+  useSeo('Page not found | CFE Accounting', 'The page you are looking for could not be found.')
   return (
     <section className="page-hero">
       <div className="container">

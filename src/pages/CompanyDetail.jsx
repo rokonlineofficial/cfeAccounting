@@ -13,7 +13,7 @@ import { services } from '../data/services.js'
 export default function CompanyDetail() {
   const { slug } = useParams()
   const company = SITE.family.find((c) => c.slug === slug)
-  useSeo(company ? `${company.name} | CFE Companies` : 'Not found | CFE Companies', company ? company.text : 'This page could not be found.')
+  useSeo(company ? `${company.name} | CFE Accounting` : 'Not found | CFE Accounting', company ? company.text : 'This page could not be found.')
   if (!company) return <NotFound />
 
   const i = SITE.family.indexOf(company)
@@ -39,7 +39,7 @@ export default function CompanyDetail() {
           <Reveal delay={100} className="col-5 col-start-8 co-side">
             <p className="label label--red">About</p>
             <p className="detail__text">{company.text}</p>
-            <p className="body-p">{slug === 'cfe-companies' ? 'CFE Companies is the holding company for the CFE family: ' + SITE.family.slice(1).map((c) => c.name).join(', ') + '.' : 'Part of the CFE family of companies, with CFE Companies as the holding company.'}</p>
+            <p className="body-p">{slug === 'cfe-companies' ? 'CFE Accounting is the holding company for the CFE family: ' + SITE.family.slice(1).map((c) => c.name).join(', ') + '.' : 'Part of the CFE family of companies, with CFE Accounting as the holding company.'}</p>
             <p className="free">{SITE.freeNote}</p>
             <Link to="/contact#quote" className="btn btn--red">Request a Quote <ArrowUpRight size={18} /></Link>
           </Reveal>

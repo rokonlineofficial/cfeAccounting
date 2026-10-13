@@ -29,7 +29,7 @@ export default function Hero() {
     <section className="hero" ref={root}>
       <div className="container grid hero__grid">
         <div className="hero__copy col-8">
-          <p className="label label--red hero__eyebrow" data-in>CFE COMPANIES</p>
+          <p className="label label--red hero__eyebrow" data-in>CFE Accounting</p>
           <h1 className="h-hero">
             <span className="line"><span className="line__in">Getting Your</span></span>
             <span className="line"><span className="line__in">Financial Life</span></span>
@@ -48,7 +48,7 @@ export default function Hero() {
 
         <figure className="hero__figure col-4">
           <div className="photo photo--tall photo--cutout hero__photo" data-tilt>
-            <img src={founder} alt="Zadih Cadyma, CEO and founder of CFE Companies" width="395" height="532" fetchpriority="high" />
+            <img src={founder} alt="Zadih Cadyma, CEO and founder of CFE Accounting" width="395" height="532" fetchpriority="high" />
           </div>
           <span className="hero__bar" aria-hidden="true" />
           <figcaption className="label" data-in>Charlotte, NC · Since {SITE.founded}</figcaption>

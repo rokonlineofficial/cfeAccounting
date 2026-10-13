@@ -9,7 +9,7 @@ import { services, groups } from '../data/services.js'
 import { SITE } from '../data/site.js'
 
 export default function Services() {
-  useSeo('Services | CFE Companies', 'Accounting, payroll, tax, bookkeeping, auditing, business planning and more from CFE Companies.')
+  useSeo('Services | CFE Accounting', 'Accounting, payroll, tax, bookkeeping, auditing, business planning and more from CFE Accounting.')
   const [params, setParams] = useSearchParams()
   const active = params.get('group') || 'all'
   const group = groups.find((g) => g.slug === active)

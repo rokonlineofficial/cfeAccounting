@@ -8,7 +8,7 @@ import { SITE } from '../data/site.js'
 import { services } from '../data/services.js'
 
 export default function Specialties() {
-  useSeo('Our Specialties | CFE Companies', 'Full tax services, bookkeeping, fundraising efforts, estate planning and website creation from CFE Accounting.')
+  useSeo('Our Specialties | CFE Accounting', 'Full tax services, bookkeeping, fundraising efforts, estate planning and website creation from CFE Accounting.')
   return (
     <>
       <PageHero eyebrow="Our Specialties" title="Our specialties here at CFE Accounting." intro={SITE.outsource} />
